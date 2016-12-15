@@ -6,7 +6,8 @@ It will also save the shares in `etc/fstab` so that they will be automatically m
 
 The script needs to be executed as root.  
 
-Usage: `sudo bash SMB-AutoMount.sh MOUNTPOINT_ROOT LINUX_USERNAME WINDOWS_USERNAME WINDOWS_PASSWORD WINDOWS_DOMAIN`
+## Usage
+`sudo bash SMB-AutoMount.sh MOUNTPOINT_ROOT LINUX_USERNAME WINDOWS_USERNAME WINDOWS_PASSWORD WINDOWS_DOMAIN`
 
 ### MOUNTPOINT_ROOT
 The root directory in which a folder for each smb device will be created. (The folders for the smb devices will then contain additional folders for the actual shares.)  
