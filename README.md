@@ -9,21 +9,21 @@ The script needs to be executed as root.
 ## Usage
 `sudo bash SMB-AutoMount.sh MOUNTPOINT_ROOT LINUX_USERNAME WINDOWS_USERNAME WINDOWS_PASSWORD WINDOWS_DOMAIN`
 
-### MOUNTPOINT_ROOT
+#### MOUNTPOINT_ROOT
 The root directory in which a folder for each smb device will be created. (The folders for the smb devices will then contain additional folders for the actual shares.)  
 My advice would be something like `/media/windows-network`.
 
-### LINUX_USERNAME
+#### LINUX_USERNAME
 The user for which the shares should be accessable.  
 Note: I don't know what happens if you actually logon with a different user with the gui. Maybe it just works or it asks you for login details of every single share. I just havent tried it yet.  
 
-### WINDOWS_USERNAME
+#### WINDOWS_USERNAME
 The username that will be used for authentication to access the network shares.  
 
-### WINDOWS_PASSWORD
+#### WINDOWS_PASSWORD
 The password that will be used for authentication to access the network shares.  
 
-### WINDOWS_DOMAIN
+#### WINDOWS_DOMAIN
 The domain that will be used for authentication to access the network shares.  
 
 ## Disclaimer
