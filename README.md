@@ -1,6 +1,6 @@
 # SMB-AutoMount
 
-This script will scan for all SMB devices in your network, then it will scan for all the shares on these devices and then mount them.  
+This script will scan for all SMB devices in your network, then it will scan for all the shares on these devices and mount them.  
 It will create a file containing your credentials in plain text in `/home/username/.smbcredentials`.  
 It will also save the shares in `etc/fstab` so that they will be automatically mounted on startup.  
 
